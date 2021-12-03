@@ -1,0 +1,8 @@
+uuid: 8e10186e-3f10-4f62-bc09-a9e0d29fb237
+langcode: en
+status: true
+dependencies: {  }
+name: Países
+vid: paises_
+description: 'Países utilizados nos registros de cachoeiras e parques de diversão'
+weight: 0
