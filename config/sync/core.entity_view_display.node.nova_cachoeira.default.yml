@@ -1,0 +1,49 @@
+uuid: cf1fdda8-33cc-43a6-9097-b9196b072576
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nova_cachoeira.body
+    - field.field.node.nova_cachoeira.field_image
+    - field.field.node.nova_cachoeira.field_video_cachoeira
+    - node.type.nova_cachoeira
+  module:
+    - image
+    - text
+    - user
+id: node.nova_cachoeira.default
+targetEntityType: node
+bundle: nova_cachoeira
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video_cachoeira:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

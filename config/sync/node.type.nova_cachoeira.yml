@@ -1,0 +1,18 @@
+uuid: 84efdd3d-5718-4efb-90b8-5a6b36c29a5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Nova Cachoeira'
+type: nova_cachoeira
+description: 'Adicionar novo registro de cachoeira'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

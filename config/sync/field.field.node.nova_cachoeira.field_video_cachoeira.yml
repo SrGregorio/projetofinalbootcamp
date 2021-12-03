@@ -1,0 +1,29 @@
+uuid: fbb0c84f-1f5e-4fbb-857c-0fe1bcf3cfaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_cachoeira
+    - media.type.remote_video
+    - node.type.nova_cachoeira
+id: node.nova_cachoeira.field_video_cachoeira
+field_name: field_video_cachoeira
+entity_type: node
+bundle: nova_cachoeira
+label: 'Video da Cachoeira'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
