@@ -1,0 +1,23 @@
+uuid: d3c36c4c-43dd-4569-a71f-16113dc397bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.novo_parque_de_diversao
+  module:
+    - text
+id: node.novo_parque_de_diversao.body
+field_name: body
+entity_type: node
+bundle: novo_parque_de_diversao
+label: Descrição
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

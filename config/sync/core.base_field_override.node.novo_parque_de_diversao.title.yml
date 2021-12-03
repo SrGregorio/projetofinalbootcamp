@@ -1,0 +1,18 @@
+uuid: 26fc9cec-d75b-4f67-a3a5-6d391d3b2306
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.novo_parque_de_diversao
+id: node.novo_parque_de_diversao.title
+field_name: title
+entity_type: node
+bundle: novo_parque_de_diversao
+label: 'Novo Parque de Diversão'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

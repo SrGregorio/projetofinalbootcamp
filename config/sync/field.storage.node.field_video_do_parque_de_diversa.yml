@@ -1,0 +1,20 @@
+uuid: 41ac0aa5-ce53-45df-bd49-d37b0fa2c8b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_video_do_parque_de_diversa
+field_name: field_video_do_parque_de_diversa
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
