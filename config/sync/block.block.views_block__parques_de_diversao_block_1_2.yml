@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.parques_de_diversao
   module:
+    - system
     - views
   theme:
     - bartik
@@ -21,4 +22,8 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact"
+    negate: true
