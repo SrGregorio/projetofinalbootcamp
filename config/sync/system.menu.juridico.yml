@@ -1,0 +1,8 @@
+uuid: a64ed8d1-2e84-4614-88ef-76715884d2eb
+langcode: en
+status: true
+dependencies: {  }
+id: juridico
+label: Jurídico
+description: 'Lista de links para páginas jurídicas'
+locked: false

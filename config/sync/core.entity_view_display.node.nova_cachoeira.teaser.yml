@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.nova_cachoeira.body
     - field.field.node.nova_cachoeira.field_image
+    - field.field.node.nova_cachoeira.field_tags
+    - field.field.node.nova_cachoeira.field_taxonomia
     - field.field.node.nova_cachoeira.field_video_cachoeira
     - node.type.nova_cachoeira
   module:
@@ -31,4 +33,6 @@ content:
     region: content
 hidden:
   field_image: true
+  field_tags: true
+  field_taxonomia: true
   field_video_cachoeira: true

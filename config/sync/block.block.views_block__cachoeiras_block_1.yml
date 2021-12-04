@@ -1,0 +1,24 @@
+uuid: 2ca890c0-c7d1-4fbf-a78d-7b3fcb9a1d36
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cachoeiras
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__cachoeiras_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:cachoeiras-block_1'
+settings:
+  id: 'views_block:cachoeiras-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

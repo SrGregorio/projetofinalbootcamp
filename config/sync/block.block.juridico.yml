@@ -1,0 +1,25 @@
+uuid: 54aada2a-5216-4859-b51e-96e10807f5a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.juridico
+  module:
+    - system
+  theme:
+    - bartik
+id: juridico
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:juridico'
+settings:
+  id: 'system_menu_block:juridico'
+  label: Jurídico
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

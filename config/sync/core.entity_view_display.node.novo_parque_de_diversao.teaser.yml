@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.novo_parque_de_diversao.body
     - field.field.node.novo_parque_de_diversao.field_image
+    - field.field.node.novo_parque_de_diversao.field_tags
+    - field.field.node.novo_parque_de_diversao.field_taxonomia
     - field.field.node.novo_parque_de_diversao.field_video_do_parque_de_diversa
     - node.type.novo_parque_de_diversao
   module:
@@ -31,4 +33,6 @@ content:
     region: content
 hidden:
   field_image: true
+  field_tags: true
+  field_taxonomia: true
   field_video_do_parque_de_diversa: true
