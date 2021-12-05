@@ -1,19 +1,25 @@
-uuid: 48e4b736-02a4-4c88-8fd0-ee89b232924d
+uuid: 3498a811-fc05-4828-9631-de30e1281e66
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.page.body
     - node.type.page
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
-id: node.page.default
+id: node.page.full
 targetEntityType: node
 bundle: page
-mode: default
+mode: full
 content:
   body:
     label: hidden
@@ -22,5 +28,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  links: true
+  links:
+    weight: 101
+    region: content
+hidden: {  }
