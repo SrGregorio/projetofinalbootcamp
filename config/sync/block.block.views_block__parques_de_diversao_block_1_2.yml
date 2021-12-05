@@ -25,5 +25,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact"
+    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact\r\n/user/*"
     negate: true

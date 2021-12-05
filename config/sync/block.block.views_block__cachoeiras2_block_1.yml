@@ -1,22 +1,22 @@
-uuid: 2ca890c0-c7d1-4fbf-a78d-7b3fcb9a1d36
+uuid: a601efd2-cb7a-47a5-8ffc-95162e7249e4
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.cachoeiras
+    - views.view.cachoeiras2
   module:
     - system
     - views
   theme:
     - bartik
-id: views_block__cachoeiras_block_1
+id: views_block__cachoeiras2_block_1
 theme: bartik
 region: sidebar_second
 weight: 0
 provider: null
-plugin: 'views_block:cachoeiras-block_1'
+plugin: 'views_block:cachoeiras2-block_1'
 settings:
-  id: 'views_block:cachoeiras-block_1'
+  id: 'views_block:cachoeiras2-block_1'
   label: ''
   provider: views
   label_display: visible
@@ -25,5 +25,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact"
+    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact\r\n/user/*"
     negate: true
