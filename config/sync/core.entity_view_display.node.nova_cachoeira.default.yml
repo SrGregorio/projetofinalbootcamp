@@ -11,8 +11,112 @@ dependencies:
     - node.type.nova_cachoeira
   module:
     - image
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          fbbce1d1-3508-4bbb-8a69-40eb04c13d87:
+            uuid: fbbce1d1-3508-4bbb-8a69-40eb04c13d87
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:nova_cachoeira:links'
+            additional: {  }
+            weight: 1
+          3363a38d-98bc-4799-ad89-7ba886c9a12f:
+            uuid: 3363a38d-98bc-4799-ad89-7ba886c9a12f
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:nova_cachoeira:field_image'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 4
+          436e032d-e535-4eac-920c-3c7f2435e3a9:
+            uuid: 436e032d-e535-4eac-920c-3c7f2435e3a9
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:nova_cachoeira:field_video_cachoeira'
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: 5
+          18feb7d9-87ff-4a0f-952e-957f1f80ce26:
+            uuid: 18feb7d9-87ff-4a0f-952e-957f1f80ce26
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:nova_cachoeira:field_taxonomia'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 2
+          399af0f3-f46f-46fb-81de-46c00d3a0452:
+            uuid: 399af0f3-f46f-46fb-81de-46c00d3a0452
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:nova_cachoeira:field_tags'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 3
+          541c35c8-e5e7-49cf-ada4-d6e7e2ababb9:
+            uuid: 541c35c8-e5e7-49cf-ada4-d6e7e2ababb9
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:nova_cachoeira:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
 id: node.nova_cachoeira.default
 targetEntityType: node
 bundle: nova_cachoeira
