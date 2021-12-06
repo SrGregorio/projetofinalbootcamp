@@ -1,0 +1,18 @@
+uuid: 5c5961e2-b77c-46d5-ad66-4fea1914988b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nova_cachoeira
+id: node.nova_cachoeira.title
+field_name: title
+entity_type: node
+bundle: nova_cachoeira
+label: 'Nova Cachoeira'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

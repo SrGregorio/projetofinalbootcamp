@@ -1,0 +1,8 @@
+uuid: 983dc678-6c95-48db-b739-340675ec482f
+langcode: en
+status: true
+dependencies: {  }
+name: Cidades
+vid: cidades
+description: 'Cidades utilizadas nos registros de cachoeiras e parques de diversão'
+weight: 0

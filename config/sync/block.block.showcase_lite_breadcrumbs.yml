@@ -1,17 +1,17 @@
-uuid: f7fe2c3a-ecc3-4ded-8d0d-8bb9f9d4bb7d
+uuid: cd8fcbeb-cd50-4ac0-81d0-8d4e91b9e6fd
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - showcase_lite
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
-region: breadcrumb
-weight: 0
+  default_config_hash: bpEStXVi9THO0eMeOf30Hxt6No0GTUK8DfSUpWEEmx8
+id: showcase_lite_breadcrumbs
+theme: showcase_lite
+region: banner
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:

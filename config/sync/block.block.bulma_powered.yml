@@ -1,17 +1,17 @@
-uuid: 4764c652-f7d9-4abf-879e-e509c021d49b
+uuid: 0615505b-0f1e-4a58-a573-d7066c01559c
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bulma
 _core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: bartik_powered
-theme: bartik
-region: footer_fifth
-weight: 10
+  default_config_hash: e_Xh9DIa3ZyP3C0BZayzu0bpWKwWH3Uz0afzQXOGVx8
+id: bulma_powered
+theme: bulma
+region: footer
+weight: -10
 provider: null
 plugin: system_powered_by_block
 settings:

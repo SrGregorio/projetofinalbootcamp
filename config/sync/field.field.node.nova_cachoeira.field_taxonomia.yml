@@ -1,0 +1,29 @@
+uuid: 1896fd57-0634-4a94-8d41-c6515c0ddb46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia
+    - node.type.nova_cachoeira
+    - taxonomy.vocabulary.paises_
+id: node.nova_cachoeira.field_taxonomia
+field_name: field_taxonomia
+entity_type: node
+bundle: nova_cachoeira
+label: País
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      paises_: paises_
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: cidades
+field_type: entity_reference

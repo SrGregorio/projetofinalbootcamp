@@ -1,4 +1,4 @@
-uuid: 152acafb-0305-4f48-b283-b8172c149dcd
+uuid: 263b3601-beb7-4e32-8ac1-b3840cce5da5
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bulma
 _core:
-  default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
-id: bartik_tools
-theme: bartik
+  default_config_hash: QJJjJ6HJDvVZazsyjBAOMao6Ffxnior9KqgZxZqPh2E
+id: bulma_tools
+theme: bulma
 region: sidebar_first
 weight: 0
 provider: null

@@ -1,0 +1,29 @@
+uuid: 62ea0a15-992e-471d-bc24-8b021b5b5867
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.nova_cachoeira
+    - taxonomy.vocabulary.cidades
+id: node.nova_cachoeira.field_tags
+field_name: field_tags
+entity_type: node
+bundle: nova_cachoeira
+label: Cidade
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cidades: cidades
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: b02c4422-6eea-4e21-a0a8-9b42938ada2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.nova_cachoeira
+  module:
+    - text
+id: node.nova_cachoeira.body
+field_name: body
+entity_type: node
+bundle: nova_cachoeira
+label: Descrição
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

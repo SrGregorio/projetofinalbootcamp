@@ -1,0 +1,29 @@
+uuid: 5a45b0fa-4699-4738-b62f-4e1767437582
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia
+    - node.type.novo_parque_de_diversao
+    - taxonomy.vocabulary.cidades
+id: node.novo_parque_de_diversao.field_taxonomia
+field_name: field_taxonomia
+entity_type: node
+bundle: novo_parque_de_diversao
+label: Cidade
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cidades: cidades
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
