@@ -371,7 +371,7 @@ display:
           inline: {  }
           separator: ''
           hide_empty: false
-      title: 'Ultimas Cachoeiras Cadastradas'
+      title: 'Últimas Cachoeiras Cadastradas'
       block_description: 'bloco cachoeiras'
       fields:
         title:
