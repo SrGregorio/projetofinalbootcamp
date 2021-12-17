@@ -25,6 +25,7 @@ Escopo: Criar um site onde possamos encontrar informações sobre cachoeiras e p
 - cd projetofinalbootcamp
 - ddev config --auto
 - ddev composer install
+- ddev start
 - ddev launch
 
 ### - Módulos e Tecnologias utilizadas ao longo do projeto:
